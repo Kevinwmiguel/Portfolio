@@ -7,9 +7,19 @@ function clickOptions(){
         header.style.height = '0vh'
         
     } else {
-        navigation.style.display = 'flex'
-        header.style.height = '100vh'
-        header.style.width = '15vw'
+        if(window.innerWidth <= 430)
+        {
+            navigation.style.display = 'flex'
+            header.style.height = '100vh'
+            header.style.width = '100vw'
+        }
+        else
+        {
+            navigation.style.display = 'flex'
+            header.style.height = '100vh'
+            header.style.width = '15vw'
+        }
+        
     }
 }
 
