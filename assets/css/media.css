@@ -305,6 +305,60 @@
         left: auto;
         right: 0;
     }
+    /* Skills */
+    
+    h2.front, h2.back{
+        display: none;
+    }
+
+    .card-tech div{
+        height: 7vh;
+        width: 40vw;
+        
+        position: absolute;
+    }
+
+    .HTML{
+        left: 2vh;
+        top: 10vh;
+    }
+    .CSS{
+        right: 2vh;
+        top: 17vh;
+    }
+    .JAVASCRIPT{
+        left: 2vh;
+        top: 24vh;
+    }
+    .TYPESCRIPT{
+        right: 2vh;
+        top: 31vh;
+    }
+
+
+    .C{
+        left: 2vh;
+        top: 38vh;
+    }
+    .PYTHON{
+        right: 2vh;
+        top: 45vh;
+    }
+    .MYSQL{
+        left: 2vh;
+        top: 52vh;
+    }
+    .AWS{
+        right: 2vh;
+        top: 59vh;
+    }
+    .GIT{
+        left: 2vh;
+        top: 66vh;
+    }
+   
+
+    
     /*Animation*/
 
     @keyframes typing {

@@ -381,11 +381,12 @@ nav .logo {
 /*Skills*/
 #skills{
     height: 100vh;
-    /*background: linear-gradient(to bottom right, #72C2F3, #000C6E);*/
 }
+
 .container3 {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     font-family: 'Sometype mono';
 }
 
