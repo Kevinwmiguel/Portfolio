@@ -47,7 +47,7 @@
         gap: 0.3vw;
         padding: 0;
         right: 0;
-        margin-bottom: 1vh;
+        bottom: 10vh;
     }
     .cont-inf img{
         width: 20vw;
@@ -136,11 +136,9 @@
         justify-content: center;
         align-items: center;
         width: 70vw;
-        height: 60vh;
-        
-        margin-top: 5vh;
+        height: 64vh;
+        margin-top: 0vh;
         border-radius: 4%;
-        
         box-shadow: 1rem 3rem 1rem green;
         padding: 5vw;
     }
@@ -199,6 +197,7 @@
         transition:  all 600ms ease-in-out;
         margin: 5vw 4vh;
         border-radius: 15vw;
+        box-shadow: 5px 10px 10px #fff;
     }
    
     .details{
