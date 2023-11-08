@@ -9,7 +9,7 @@ https://kevinwmiguel.github.io/Portfolio/index.html
 - HTML
 - CSS
 - JavaScript
-- GIT
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 Sinta-se à vontade para explorar meus projetos e entre em contato se quiser colaborar ou conhecer mais sobre o meu trabalho.
 
