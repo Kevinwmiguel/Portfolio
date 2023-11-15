@@ -221,6 +221,7 @@ nav .logo {
     color: #000000;
     font-family: 'Sometype Mono';
     font-size: 2vh;
+    box-shadow: 5px 10px 30px #06ee29;
     text-shadow: 0.2vh 0.1vh rgba(0, 0, 0, 0.338);
     font-weight: bold;
 }
@@ -239,7 +240,7 @@ nav .logo {
 }
 
 .btn-white::after {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .btn:hover::after {
