@@ -308,6 +308,7 @@
         right: 0;
     }
     /* Skills */
+    
     h2.front, h2.back{
         display: none;
     }
@@ -358,7 +359,7 @@
     }
     .GIT{
         left: 18vh;
-        bottom: 7vh;
+        bottom: 0vh;
     }
     i{
         font-size: 10vw;
