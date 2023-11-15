@@ -1,5 +1,5 @@
 @media only screen and (max-width: 430px){
-     /* HEADER NAV BAR */
+    
     .head {
         display: flex;
         flex-direction: column;
@@ -305,57 +305,193 @@
         right: 0;
     }
     /* Skills */
-    
     h2.front, h2.back{
         display: none;
     }
-
     .card-tech div{
-        height: 7vh;
-        width: 40vw;
-        
+        height: 13vh;
+        width: 30vw;
         position: absolute;
     }
-
+    .card-tech span{
+        font-size: 2vh;
+    }
+    .card-tech{
+        height: 2000px;
+    }
     .HTML{
-        left: 2vh;
-        top: 10vh;
+        left: 8vh;
+        top: 13vh;
     }
     .CSS{
-        right: 2vh;
+        right: 8vh;
         top: 17vh;
     }
     .JAVASCRIPT{
-        left: 2vh;
-        top: 24vh;
+        left: 8vh;
+        top: 28vh;
     }
     .TYPESCRIPT{
-        right: 2vh;
-        top: 31vh;
+        right: 8vh;
+        top: 32vh;
     }
 
 
     .C{
-        left: 2vh;
-        top: 38vh;
+        left: 8vh;
+        top: 43vh;
     }
     .PYTHON{
-        right: 2vh;
-        top: 45vh;
+        right: 8vh;
+        top: 47vh;
     }
     .MYSQL{
-        left: 2vh;
-        top: 52vh;
+        left: 8vh;
+        top: 58vh;
     }
     .AWS{
-        right: 2vh;
-        top: 59vh;
+        right: 8vh;
+        top: 62vh;
     }
     .GIT{
-        left: 2vh;
-        top: 66vh;
+        left: 8vh;
+        bottom: 14vh;
     }
-   
+    i{
+        font-size: 10vw;
+        color: #000;
+    }
+
+    /*Contact*/
+    #contacts {
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        background: linear-gradient(to bottom, #012907 0%, #000000 50%);
+    }
+    .rocket-img{
+        width: 30vw;
+        text-shadow: 0px 0px white;
+        margin-left: 0vw;
+        margin-top: -35vh;
+        padding: 0;
+    }
+    
+    #contacts .rocket-div{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        bottom: -50vh;
+        background-color: black;
+        height: 84% !important;
+        width: 60%;
+        transform: rotate(90deg);
+    }
+    .rocket{
+        position: relative;
+        animation:  ROKETO 0.2s ease infinite;
+    }
+    .rocket-div i{
+        position: absolute;
+        top: -0vh;
+        padding: 0;
+        margin: 0;
+        background: rgba(255, 255, 255, 0.5);
+        animation: animateStars linear infinite;
+    }
+    .rocket:before{
+        content: '';
+        position: absolute;
+        bottom: -10.5vw;
+        left: 15vw;
+        transform: translateX(-50%);
+        width: 3vw;
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
+        height: 5vh;
+        background: linear-gradient(#06ee29, transparent);
+    }
+    
+    .rocket:after{
+        content: '';
+        position: absolute;
+        bottom: -15vw;
+        left: 15vw;
+        transform: translateX(-50%);
+        width: 4vw;
+        height: 8vh;
+        background: linear-gradient(#06ee29, transparent);
+        filter: blur(1vw);
+    }
+    
+    .form-content{
+        margin: auto auto;
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vh;
+    }
+    #contacts div.form{
+        width: 160%;
+        margin-top: 0vh;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh; 
+        margin-top: 2.5vh;
+        box-sizing: border-box;
+    }
+
+    .form{
+        background-color: #048217;
+        box-shadow: 1vh 1vh 1vh #06ee29;
+        height: 75vh;
+        border-radius: 1vh;
+    }
+
+    /*Inputs and text area*/
+    label{
+        font-family: 'Sometype mono';
+        font-size: 6vw; 
+        font-weight: bolder;
+        text-shadow: #06ee29 0.1vh 0.1vh;
+    }
+    #msg{
+        height: 20vh;
+        width: 65vw;
+        margin: 1.5vh;
+        border-radius: 2vw;
+        padding: 2vw;
+        font-size: 2vh;
+    }
+    input{
+        margin: 2vw;
+        border-radius: 1vw;
+        height: 5vh;
+        width: 60vw;
+        font-size: 2vh;
+        font-weight: bolder;
+        padding: 0.7vw;
+        border: none;
+    }
+
+    .button{
+        background-color: #06ee29;
+        box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.491);
+        width: 40vw;
+        position: relative;
+        height: 10vh;
+        font-weight: bold;
+        font-family: 'Sometype mono';
+        font-size: 5vw;
+        border-radius: 2vh;
+    }
 
     
     /*Animation*/
