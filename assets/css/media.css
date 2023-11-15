@@ -11,6 +11,7 @@
         margin-left: 5vh;
         margin-top: 22vh;
         width: 80vw;
+        z-index: 999;
     }
     
     .head a{
@@ -109,11 +110,13 @@
         font-size: 7vw;
     }
     .second-home p{
-        font-size: 7vw;
+        font-size: 7vw;    
     }
     .perfil {
         width: 50vw;
         border-radius: 50%;
+        margin-top: 10vh;
+        margin-bottom: 0vh;
         border: 0.5vw solid #000000;
     }
 
@@ -124,7 +127,7 @@
     
     .second-home {
         margin-left: -10vh;
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
 
     /*About*/
@@ -297,7 +300,7 @@
         padding: 0;
         transition: all 600ms ease-in-out;
         background: #000;
-        z-index: 999;
+        z-index: 7;
     }
     .arrow-right{
         background: linear-gradient(to right black 0%, transparent 200%);
@@ -354,8 +357,8 @@
         top: 62vh;
     }
     .GIT{
-        left: 8vh;
-        bottom: 14vh;
+        left: 16vh;
+        bottom: 10vh;
     }
     i{
         font-size: 10vw;
